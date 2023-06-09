@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  padding: 0;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+h1{
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  background-color: rgb(188, 205, 255);
+  border-radius: 50px;
+  margin: calc(25% + 5px);
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+h2{
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-weight: 200 !important;
+  letter-spacing: 1px;
+  background-color: rgb(227, 234, 255);
+  border-radius: 50px;
+  margin: calc(25% + 5px);
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+h4{
+  color: black;
+  padding: 8px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: rgb(235, 240, 255);
+  border-radius: 50px;
+  margin: calc(41% + 5px);
+  margin-top: 10px !important;
+}
+
+h5{
+  color: black;
+  padding: 8px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: rgb(235, 240, 255);
+  border-radius: 50px;
+  margin: calc(33% + 5px);
+  margin-top: 10px !important;
+}
+
+#num-tarjetas, #input{
+  padding: 4px;
+  margin: 2px;
+  width: 15%;
+  border-radius: 15px !important;
+  border-color: rgb(213, 213, 213);
+  border-style: solid;
+}
+
+#tarjetas-form{
+  margin-bottom: 30px !important;
+}
+
+#button{
+  padding: 5px;
+  margin: 15px;
+  width: 15%;
+  border-radius: 15px !important;
+  border-color: rgb(209, 240, 207);
+  background-color: rgb(240, 254, 238);
+  border-style: solid;
+}
+
+#button:hover{
+  border-color: rgb(176, 222, 172);
+  background-color: rgb(205, 255, 197);
+  border-style: solid;
+  transition: 0.2s ease;
+}
+
+#back{
+  padding: 5px;
+  margin: 15px;
+  width: 15%;
+  border-radius: 15px !important;
+  border-color: rgb(240, 207, 207);
+  background-color: rgb(254, 238, 238);
+  border-style: solid;
+}
+
+#back:hover{
+  border-color: rgb(239, 193, 193);
+  background-color: rgb(255, 218, 218);
+  border-style: solid;
+  transition: 0.2s ease;
+}
